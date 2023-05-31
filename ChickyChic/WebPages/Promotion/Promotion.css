@@ -1,0 +1,150 @@
+
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    display: block;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 1200px;
+    color: grey;
+}
+
+.price {
+    color: rgb(248, 66, 26);
+    text-align: center;
+    padding-top: 10px;
+    right: 65px;
+    top: 35px;
+    font-size: 35px;
+    width: 150px;
+    position: absolute;
+    border-radius: 30px;
+    background-color: rgb(255, 225, 187);
+}
+
+.infomation {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+.pic-set {
+    position: absolute;
+    margin-top: 25px;
+}
+
+.add {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgb(241 72 34);
+    font-size: 25px;
+    border: none;
+    right: 85px;
+    top: 320px;
+}
+
+.add:focus {
+    border: none;
+    outline: none;
+}
+
+.add:hover{
+    background-color: rgb(242, 100, 68);
+}
+
+/* .add:active {
+    transform: translateY(2px);
+} */
+
+.plus {
+    position: absolute;
+    right: 360px;
+    top: 330;
+}
+
+.minus {
+    position: absolute;
+    right: 520px;
+    top: 330;
+}
+
+.glyphicon {
+    border-radius: 50%;
+    background-color: rgb(253 165 39);
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.glyphicon:focus{
+    border: none;
+    outline: none;
+}
+
+.glyphicon:hover{
+    background-color: rgb(248, 178, 81);
+}
+
+.glyphicon:active {
+    transform: translateY(2px);
+}
+
+#set-count-1 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-2 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-3 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-4 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-5 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-6 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+
+#set-count-7 {
+    position: absolute;
+    font-size: 25px;
+    top: 330;
+    right: 455px;
+}
+

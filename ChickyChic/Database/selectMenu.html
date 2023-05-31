@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database_Selected_Menu</title>
+</head>
+<body>
+    <?php
+        class SelectMenu extends SQLite3{
+            function __construct(){
+                $this->open('selectMenu.db');
+            }
+        }
+
+        $db = new SelectMenu();
+        if(!$db){
+            echo $db->lastErrorMsg();
+        }
+
+        else{
+            echo  "OPEN DATABASE SUCCESS<br>";
+        }
+
+        $table = <<<EOF
+        create table selectMenu
+        (Menu char(70) primary key not null,
+        Image blob not null,
+        Price real not null,
+        Number int not null);
+        EOF;
+        //blob is refered to "Binary Large Object" e.g. file, image, video
+
+        $record = $db->exec($table);
+        if(!$record){
+            echo $db->lastErrorMsg();
+        }
+        else{
+            echo "TABLE SUCCESS<br>";
+        }
+
+        $db->close();
+    ?>
+</body>
+</html>

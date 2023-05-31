@@ -1,0 +1,131 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+.modal-dialog{
+    /* position: relative;
+    transform: translateY(-5%);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, 0);
+}
+
+.modal-header{
+    padding: 3%;
+}
+
+h1{
+    color: rgb(243, 188, 5);
+}
+
+.modal-content{
+    width: 900px;
+    padding: 3%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#name, #location, #number{
+    display: flex;
+    justify-content: center;
+}
+
+#name{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    border: 1px solid rgb(174, 174, 174);
+    width: 100%;
+    height: 50px;
+}
+
+textarea{
+    resize: none;
+}
+
+input, label, textarea{
+    margin: 1%;
+    font-size: 20px;
+}
+
+label{
+    display:inline-block;
+}
+
+.submit{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 40px;
+    background-color: #F24822;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+/* POP UP */
+#modal-dialog{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#modal-contents{
+    height: 200px;
+    width: 400px;
+}
+
+#modal-headers, #modal-bodys h5, #modal-footer{
+    display: flex;
+    justify-content: center;
+    color: #F24822;
+}
+
+#modal-bodys h5{
+    margin-top: 10px;
+    color: #FEA628;
+}
+
+#modal-headers{
+    margin-top: 10px;
+    padding: 0;
+}
+
+#modal-footer{
+    background-color: #FEA628;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: -13px;
+}
+
+#close{
+    position: relative;
+    background-color: #F24822;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+
+}
+
+#close:hover{
+    background-color: white;
+    color: #F24822;
+}

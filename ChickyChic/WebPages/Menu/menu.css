@@ -1,0 +1,28 @@
+.nav-item {
+    width: 100px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.nav-tabs {
+    background-color: rgb(253 165 39);
+    padding: 8px;
+    padding-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.nav-link, .nav-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: relative;
+    margin-top: -30px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 95%;
+}
